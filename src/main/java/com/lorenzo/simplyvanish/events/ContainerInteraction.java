@@ -1,4 +1,4 @@
-package com.github.therealbeaver.simplyvanish.events;
+package com.lorenzo.simplyvanish.events;
 
 import org.bukkit.Material;
 import org.bukkit.block.Block;

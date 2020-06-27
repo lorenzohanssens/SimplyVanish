@@ -1,10 +1,10 @@
 name: SimplyVanish
 version: ${project.version}
-main: com.github.therealbeaver.simplyvanish.SimplyVanish
+main: com.lorenzo.simplyvanish.SimplyVanish
 api-version: 1.13
-authors: [KingOfBeavers]
+authors: [lorenzohanssens]
 description: Allows your staff to vanish.
-website: https://github.com/TheRealBeaver
+website: https://github.com/lorenzohanssens
 
 commands:
   vanish:

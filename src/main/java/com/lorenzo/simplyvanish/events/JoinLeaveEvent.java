@@ -1,4 +1,4 @@
-package com.github.therealbeaver.simplyvanish.events;
+package com.lorenzo.simplyvanish.events;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
@@ -9,8 +9,8 @@ import org.bukkit.event.player.PlayerQuitEvent;
 
 import java.util.UUID;
 
-import static com.github.therealbeaver.simplyvanish.commands.Vanish.peopleHiddenFrom;
-import static com.github.therealbeaver.simplyvanish.commands.Vanish.vanished;
+import static com.lorenzo.simplyvanish.commands.Vanish.peopleHiddenFrom;
+import static com.lorenzo.simplyvanish.commands.Vanish.vanished;
 import static java.util.UUID.fromString;
 
 public class JoinLeaveEvent implements Listener {

@@ -1,4 +1,4 @@
-package com.github.therealbeaver.simplyvanish.commands;
+package com.lorenzo.simplyvanish.commands;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

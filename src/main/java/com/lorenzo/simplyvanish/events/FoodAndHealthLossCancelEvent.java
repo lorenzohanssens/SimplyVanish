@@ -1,7 +1,7 @@
-package com.github.therealbeaver.simplyvanish.events;
+package com.lorenzo.simplyvanish.events;
 
-import com.github.therealbeaver.simplyvanish.commands.Vanish;
-import com.github.therealbeaver.simplyvanish.functions.checkPerms;
+import com.lorenzo.simplyvanish.commands.Vanish;
+import com.lorenzo.simplyvanish.functions.checkPerms;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -9,7 +9,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.event.entity.FoodLevelChangeEvent;
 
-import static com.github.therealbeaver.simplyvanish.commands.Vanish.vanished;
+import static com.lorenzo.simplyvanish.commands.Vanish.vanished;
 
 public class FoodAndHealthLossCancelEvent implements Listener {
 

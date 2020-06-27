@@ -1,8 +1,8 @@
-package com.github.therealbeaver.simplyvanish;
+package com.lorenzo.simplyvanish;
 
 
-import com.github.therealbeaver.simplyvanish.commands.Vanish;
-import com.github.therealbeaver.simplyvanish.events.*;
+import com.lorenzo.simplyvanish.commands.Vanish;
+import com.lorenzo.simplyvanish.events.*;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 

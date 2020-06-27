@@ -1,4 +1,4 @@
-package com.github.therealbeaver.simplyvanish.events;
+package com.lorenzo.simplyvanish.events;
 
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
@@ -6,7 +6,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityTargetLivingEntityEvent;
 
-import static com.github.therealbeaver.simplyvanish.commands.Vanish.vanished;
+import static com.lorenzo.simplyvanish.commands.Vanish.vanished;
 
 public class NoMobAttackEvent implements Listener{
 

@@ -1,4 +1,4 @@
-package com.github.therealbeaver.simplyvanish.functions;
+package com.lorenzo.simplyvanish.functions;
 
 import org.bukkit.entity.Player;
 
