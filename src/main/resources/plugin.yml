@@ -1,0 +1,34 @@
+name: SimplyVanish
+version: ${project.version}
+main: com.github.therealbeaver.simplyvanish.SimplyVanish
+api-version: 1.13
+authors: [KingOfBeavers]
+description: Allows your staff to vanish.
+website: https://github.com/TheRealBeaver
+
+commands:
+  vanish:
+    usage: /vanish
+    description: Become a ghost to other players.
+    permission: SimplyVanish.vanish
+    default: OP
+
+permissions:
+  SimplyVanish.*:
+    description: Gives access to all SimplyVanish commands
+    children:
+      SimplyVanish.vanish: true
+      SimplyVanish.seevanished: true
+      SimplyVanish.bypassfood: true
+  SimplyVanish.vanish:
+    description: Allows you to vanish.
+    default: op
+  SimplyVanish.seevanished:
+    description: Allows you to see vanished players.
+    default: op
+  SimplyVanish.bypassfood:
+    description: Allows you to not lose hunger while vanished.
+    default: op
+  SimplyVanish.bypasshealth:
+    description: Allows you to not lose health while vanished.
+    default: op
